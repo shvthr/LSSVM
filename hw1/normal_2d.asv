@@ -1,0 +1,7 @@
+function [ px ] = normal_2d(x, mu )
+
+px = (2*pi)^-1 * exp(-0.5*(x-mu)'*(x-mu))
+
+
+end
+
